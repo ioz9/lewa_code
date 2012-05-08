@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch=".." />
+
+  <default revision="master"
+           remote="github" />
+
+  <project path="build" name="ioz9/lewa_code_build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="bionic" name="ioz9/lewa_code_bionic" />
+  <project path="bootable" name="ioz9/lewa_code_bootable" />
+  <project path="dalvik" name="ioz9/lewa_code_dalvik" />
+  <project path="development" name="ioz9/lewa_code_development" />
+  <project path="device" name="ioz9/lewa_code_device" />
+  <project path="external" name="ioz9/lewa_code_external" />
+  <project path="frameworks" name="ioz9/lewa_code_frameworks" />
+  <project path="hardware" name="ioz9/lewa_code_hardware" />
+  <project path="lewa" name="ioz9/lewa_code_lewa" />
+  <project path="libcore" name="ioz9/lewa_code_libcore" />
+  <project path="ndk" name="ioz9/lewa_code_ndk" />
+  <project path="packages" name="ioz9/lewa_code_packages" />
+  <project path="prebuilt" name="ioz9/lewa_code_prebuilt" />
+  <project path="sdk" name="ioz9/lewa_code_sdk" revision="tools_r7" />
+  <project path="system" name="ioz9/lewa_code_system" />
+  <project path="vendor" name="ioz9/lewa_code_vendor" />
+
+  <project path="lewa_code" name="ioz9/lewa_code" />
+
+</manifest>
