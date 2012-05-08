@@ -22,7 +22,6 @@
   <project path="ndk" name="ioz9/lewa_code_ndk" />
   <project path="packages" name="ioz9/lewa_code_packages" />
   <project path="prebuilt" name="ioz9/lewa_code_prebuilt" />
-  <project path="sdk" name="ioz9/lewa_code_sdk" revision="tools_r7" />
   <project path="system" name="ioz9/lewa_code_system" />
   <project path="vendor" name="ioz9/lewa_code_vendor" />
 
