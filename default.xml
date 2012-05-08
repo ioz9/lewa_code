@@ -9,6 +9,7 @@
   <project path="build" name="ioz9/lewa_code_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="android" name="ioz9/lewa_code_android" />
   <project path="bionic" name="ioz9/lewa_code_bionic" />
   <project path="bootable" name="ioz9/lewa_code_bootable" />
   <project path="dalvik" name="ioz9/lewa_code_dalvik" />
@@ -24,7 +25,5 @@
   <project path="prebuilt" name="ioz9/lewa_code_prebuilt" />
   <project path="system" name="ioz9/lewa_code_system" />
   <project path="vendor" name="ioz9/lewa_code_vendor" />
-
-  <project path="lewa_code" name="ioz9/lewa_code" />
 
 </manifest>
