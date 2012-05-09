@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="github"
            fetch="+refs/heads/*:refs/remote/master/*" 
-           url="git@github.com:GitUserName/GitRepoName.git" />
+           url="git@github.com:ioz9/.." />
 
   <branch  name="master"
            merge="refs/heads/master" />
