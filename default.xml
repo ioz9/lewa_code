@@ -8,7 +8,7 @@
            merge="refs/heads/master" />
 
   <default revision="lewaos1.0"
-           remote="master" />
+           remote="github" />
 
   <project path="build" name="ioz9/lewa_code_build">
     <copyfile src="core/root.mk" dest="Makefile" />
