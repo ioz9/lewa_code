@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="github"
-           fetch="+refs/heads/*:refs/remote/master/*" 
+           fetch=".." 
            url="git@github.com:ioz9/.." />
 
   <branch  name="master"
