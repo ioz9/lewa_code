@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="github"
-           fetch="+refs/heads/*:refs/remote/master/*" />
+           fetch="+refs/heads/*:refs/remote/master/*" 
+           url="git@github.com:GitUserName/GitRepoName.git" />
 
   <default revision="lewaos1.0"
            remote="master" />
