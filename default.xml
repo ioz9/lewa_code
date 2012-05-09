@@ -4,6 +4,9 @@
            fetch="+refs/heads/*:refs/remote/master/*" 
            url="git@github.com:GitUserName/GitRepoName.git" />
 
+  <branch  name="master"
+           merge="refs/heads/master" />
+
   <default revision="lewaos1.0"
            remote="master" />
 
