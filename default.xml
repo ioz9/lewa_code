@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="github"
-           fetch=".." />
+           fetch="+refs/heads/*:refs/remote/master/*" />
 
-  <default revision="master"
-           remote="github" />
+  <default revision="lewaos1.0"
+           remote="master" />
 
   <project path="build" name="ioz9/lewa_code_build">
     <copyfile src="core/root.mk" dest="Makefile" />
