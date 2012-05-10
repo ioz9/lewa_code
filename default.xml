@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="github"
-           fetch=".." 
-           url="git@github.com:ioz9/.." />
-
-  <branch  name="master"
-           remote="github"
-           merge="master" />
+           fetch=".." />
 
   <default revision="master"
            remote="github" />
